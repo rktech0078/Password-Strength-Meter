@@ -4,7 +4,7 @@ import random
 import string
 from datetime import datetime
 
-st.set_page_config(page_title="Password Strength Meter", page_icon="🔒", layout="wide")
+st.set_page_config(page_title="Password Strength Meter", page_icon="🔒", layout="centered")
 
 COMMON_PASSWORDS = {"password123", "12345678", "qwerty123", "admin123"}
 
